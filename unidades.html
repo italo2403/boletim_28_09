@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      
+       nav {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 20px 0;
+        }
+
+        a {
+            font-size: 45px;
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #FFF;
+            border: 2px solid #000;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+        }
+
+        a:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px); /* Elevação suave ao passar o mouse */
+        }
+          /* Responsividade: Para telas menores que 768px */
+          @media (max-width: 768px) {
+            nav {
+                flex-direction: column; /* Organiza os links em uma coluna */
+                gap: 10px;
+            }
+
+            a {
+                width: 100%; /* Faz os links ocuparem toda a largura */
+                text-align: center; /* Centraliza o texto */
+                font-size: 22px;
+            }
+        }
+
+        /* Responsividade: Para telas menores que 480px */
+        @media (max-width: 480px) {
+            a {
+                font-size: 18px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+<nav>
+    <a href="unidade1.html">Unidade 1</a>
+    <a href="unidade2.html">Unidade 2</a>
+    <a href="unidade3.html">Unidade 3</a>
+</nav>
+
+</body>
+</html>
